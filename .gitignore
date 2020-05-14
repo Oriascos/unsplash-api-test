@@ -1,0 +1,3 @@
+#Omitimos la subida de la carpeta node_modules
+node_modules
+yarn.lock

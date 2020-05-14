@@ -1,0 +1,86 @@
+.photo-list{
+    max-width: 100%;
+    margin: 20px 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+.photo-list img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    height: auto;
+}
+.photo-list article{
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.photo-list article strong{
+    color: #000000;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.photo-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+    line-height: 24px;
+}
+.photo-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #4d4c7d;
+    background: none;
+    color: #4d4c7d;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.photo-list article a:hover{
+    background: #4d4c7d;
+    color: #ffffff;
+}
+.photo-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;     
+}
+.photo-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #4d4c7d;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.photo-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+.photo-list .actions button:hover{
+    opacity: 0.7;
+}
+.photo-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
+.corazon{
+    color: red;
+    font-style: normal;
+}
